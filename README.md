@@ -1,47 +1,39 @@
-<h1> Jet 7 - Iron Man Suit</h1>
+<h1> Micro Gas Turbine simulation on ASPEN Plus</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-I am a design engineer for the student led initative Jet 7 and a member of the gas turbine team. My contributions include designing the CFD workflow which included splitting the gas turbine in to it's main components (Centrifugal compressor, combustion chamber, axial turbine) so that I could run a coupled simulation utisling the outlet boundary conditions of the first component in the next one for realistic results. This also allowed us to run simulations across different software (ANSYS Fluent and CFX). 
+In this masters level module I developed an ASPEN Plus model of a Turbec T-100 gas turbine model with power and heat generation. I utilised this model to investigate the effects of changing the recupirator parameters (temperature difference), isentropic efficiencies (of compressor and turbine) as well as a few other parameters on the total power generation of the gas turbine. I relied on data from the specification sheet to calculate the fuel mass flow rate based on the caloric value and the total power input of the fuel. Once I had established a relationship between these key parameters and power output I then developed an optimised model by iterativley altering the air flow rate, and isentropic efficiency to result in a model configuration that produces a power ouput within 0.5KW of the nominal 100KW electical power output, all whilst ensuring the turbine inlet temperature is within 2 degrees celsius of the specificed 950C. This was a challenge to achieve because the fuel composition and caloric value were different from the ones stated in the specification sheet. 
 <br />
 
 
 <h2> Software Used</h2>
 
-- <b>ANSYS Fluent</b> 
-- <b>ANSYS CFX</b>
+- <b>ASPEN Plus</b> 
+
 
 
 <h2>Pictures:</h2>
 
 <p align="center">
-Logo: <br/>
-<img src="https://i.imgur.com/o03mf9M.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+Turbec T-100 Unit Diagram: <br/>
+<img src="https://i.imgur.com/XcSGvuF.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+
+<img src="https://i.imgur.com/VQrDHIM.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Optimised ASPEN Plus Model: <br/>
+<img src="https://i.imgur.com/gF8dxdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Simplified Diagram of Thermodynamic Processes:  <br/>
+<img src="https://i.imgur.com/XuGwDjk.jpeg" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Recupirator Properties:  <br/>
+<img src="https://i.imgur.com/cjKnUbB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
