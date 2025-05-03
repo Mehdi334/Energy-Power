@@ -18,7 +18,7 @@ In this masters level module I developed an ASPEN Plus model of a Turbec T-100 g
 Turbec T-100 Unit Diagram: <br/>
 <img src="https://i.imgur.com/XcSGvuF.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-
+<br />
 <img src="https://i.imgur.com/VQrDHIM.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -33,7 +33,10 @@ Simplified Diagram of Thermodynamic Processes:  <br/>
 Recupirator Properties:  <br/>
 <img src="https://i.imgur.com/cjKnUbB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-
+Turbec T-100 Gas Turbine Unit:  <br/>
+<img src="https://i.imgur.com/JdqgfCz.jpeg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 </p>
 
 <!--
